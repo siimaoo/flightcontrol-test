@@ -1,0 +1,24 @@
+{
+  "environments": [
+    {
+      "id": "production",
+      "name": "Production",
+      "region": "sa-east-1",
+      "source": {
+        "branch": "main"
+      },
+      "services": [
+        {
+          "id": "my-webapp",
+          "name": "My Webapp",
+          "type": "fargate",
+          "cpu": 0.25,
+          "memory": 0.5,
+          "minInstances": 1,
+          "maxInstances": 1,
+          "startCommand": "npm run start"
+        }
+      ]
+    }
+  ]
+}

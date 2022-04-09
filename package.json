@@ -1,0 +1,12 @@
+{
+  "name": "flightcontrol-selftunneling-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "tcp-local-tunnel": "^1.0.6"
+  },
+  "scripts": {
+    "start": "node index.mjs"
+  }
+}
