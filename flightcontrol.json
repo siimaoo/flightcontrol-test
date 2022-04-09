@@ -17,6 +17,7 @@
           "minInstances": 1,
           "maxInstances": 1,
           "port": 8010,
+          "buildCommand": "npm run build",
           "startCommand": "npm run start"
         }
       ]
